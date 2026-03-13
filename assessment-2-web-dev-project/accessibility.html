@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Planetarium | Accessibility</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">Big Planetarium</h1>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">
+        Menu
+      </button>
+
+      <nav id="primary-navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="planets.html">Planets</a></li>
+          <li><a href="accessibility.html">Accessibility</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="planet-detail">
+      <div class="container">
+        <h2>Accessibility Statement</h2>
+
+        <p>
+          At Big Planetarium, we are committed to making our website accessible
+          to as many users as possible, including people with disabilities.
+        </p>
+
+        <h3>Perceivable</h3>
+        <ul>
+          <li>High colour contrast between text and background.</li>
+          <li>Responsive layout for different screen sizes.</li>
+          <li>Clear headings and structured content.</li>
+        </ul>
+
+        <h3>Operable</h3>
+        <ul>
+          <li>Keyboard-accessible navigation.</li>
+          <li>Menu toggle supports ARIA attributes.</li>
+          <li>All interactive elements use semantic HTML buttons and links.</li>
+        </ul>
+
+        <h3>Understandable</h3>
+        <ul>
+          <li>Simple, clear language.</li>
+          <li>Consistent navigation across pages.</li>
+        </ul>
+
+        <h3>Robust</h3>
+        <ul>
+          <li>Semantic HTML5 elements (header, nav, main, footer).</li>
+          <li>ARIA attributes used appropriately.</li>
+          <li>Tested across multiple screen sizes.</li>
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Big Planetarium | Educational Prototype</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
